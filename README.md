@@ -1,18 +1,31 @@
 # LGSW_mysql_crud_test
 
-# 첫 번째 미션
--- sqlite3 생성 후, classicmodels 쿼리 추가 방법
+### sqlite3 라이브러리 설치 및 classicmodels 쿼리 추가
+```shell
+    pip install mysql-to-sqlite3
+    mysql2sqlite -f classicmodels.sqlite -d classicmodels -u root -p
+```
 
-# streamlit 대시보드 개발
--- sqlite3와 연결
+### streamlit 대시보드 개발
+-- sqlite3와 연결 (Connect to server)
+    -> classicmodels.sqite path 지정
 
-# 대시보드 디자인 시작
--- 테스트 완료 후
+### 대시보드 디자인 시작
+- 고객 정보 입력
+```python
+    search_name = st.text_input("고객 이름을 입력하세요:")
+``` 
+- 강제 소문자 변환 & 띄어쓰기 제거 후 search
+```sql
+    -- search 성공 시
+    WHERE LOWER(customerName) LIKE LOWER('%{search_name.strip()}%') LIMIT 10;
+    -- search 실패 시
+    SELECT * FROM customers LIMIT 10;
+```
 
-# 배포 deploy, streamlit
+### 배포 deploy, streamlit
 
-# readme.md 페이지 구성
-
+--
 ## Tech Stack
 
 ![python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
