@@ -25,4 +25,6 @@
 ## Communication
 
 ![discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)
-<img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white">(https://rebel-sponge-f81.notion.site/MySQL-Python_DB-table-sqlite3-streamlit-1e595b3f859c80edb774c5d8ca52b62c)
+<a href="https://rebel-sponge-f81.notion.site/MySQL-Python_DB-table-sqlite3-streamlit-1e595b3f859c80edb774c5d8ca52b62c" target="_blank">
+  <img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white" alt="Notion Badge">
+</a>
