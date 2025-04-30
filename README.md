@@ -14,6 +14,16 @@
 # readme.md 페이지 구성
 
 ## Tech Stack
+
 ![python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
 ![sqlite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=joseonyeong)](https://github.com/anuraghazra/github-readme-stats)
+--
+
+## Communication
+
+![discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)
+
+[![Notion](https://notion-readme-stats.vercel.app/api?name=whtjsdud54)](https://rebel-sponge-f81.notion.site/MySQL-Python_DB-table-sqlite3-streamlit-1e595b3f859c80edb774c5d8ca52b62c)
